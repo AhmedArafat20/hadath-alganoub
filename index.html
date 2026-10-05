@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>حدث الجنوب التجارية | مطابخ وخزائن وديكورات داخلية</title>
+
+  <meta name="description" content="شركة حدث الجنوب التجارية للمطابخ والخزائن والديكورات الداخلية. مطابخ خشب وألمنيوم، خزائن وغرف نوم، ديكورات داخلية ومغاسل رخام.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+
+    <div class="container nav-container">
+
+      <a href="index.html" class="logo">
+        <span class="logo-main">حدث الجنوب</span>
+        <span class="logo-sub">التجارية للمطابخ والخزائن</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" id="navbar">
+
+        <a href="index.html" class="active">الرئيسية</a>
+
+        <a href="about.html">من نحن</a>
+
+        <a href="projects.html">مشاريعنا</a>
+
+        <a href="contact.html">اتصل بنا</a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= HERO SLIDER ================= -->
+
+  <section class="hero">
+
+    <div class="hero-slider">
+
+      <!-- Slide 1 -->
+      <div class="hero-slide active">
+
+        <img src="images/1.jpeg" alt="مطابخ حديثة">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+          <span class="hero-small">حدث الجنوب التجارية</span>
+
+          <h1>
+            مطابخ وخزائن
+            <br>
+            بتصاميم استثنائية
+          </h1>
+
+          <p>
+            نصمم وننفذ مطابخ وخزائن وديكورات داخلية
+            تجمع بين الجودة والأناقة والعملية.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="projects.html" class="btn btn-primary">
+              شاهد مشاريعنا
+            </a>
+
+            <a href="contact.html" class="btn btn-outline">
+              تواصل معنا
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Slide 2 -->
+      <div class="hero-slide">
+
+        <img src="images/2.jpeg" alt="مطابخ خشبية">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+          <span class="hero-small">تصميم وتنفيذ</span>
+
+          <h2>
+            مطابخ خشب وألمنيوم
+            <br>
+            بجودة عالية
+          </h2>
+
+          <p>
+            حلول عملية وتصاميم عصرية تناسب مختلف المساحات
+            والاحتياجات.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="contact.html" class="btn btn-primary">
+              اطلب تصميمك
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Slide 3 -->
+      <div class="hero-slide">
+
+        <img src="images/3.jpeg" alt="خزائن وغرف نوم">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+          <span class="hero-small">أناقة وتنظيم</span>
+
+          <h2>
+            خزائن وغرف نوم
+            <br>
+            بتفاصيل متقنة
+          </h2>
+
+          <p>
+            نصنع حلول تخزين أنيقة وعملية تضيف لمسة مميزة
+            إلى منزلك.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="projects.html" class="btn btn-primary">
+              استكشف أعمالنا
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Slide 4 -->
+      <div class="hero-slide">
+
+        <img src="images/4.jpeg" alt="ديكورات ومغاسل رخام">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+          <span class="hero-small">لمسات فاخرة</span>
+
+          <h2>
+            ديكورات داخلية
+            <br>
+            ومغاسل رخام
+          </h2>
+
+          <p>
+            تفاصيل مصممة بعناية لتمنح المكان مظهراً
+            راقياً ومتكاملاً.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="contact.html" class="btn btn-primary">
+              تواصل معنا
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Slider Controls -->
+
+    <button class="slider-arrow slider-prev" id="prevSlide">
+      &#10094;
+    </button>
+
+    <button class="slider-arrow slider-next" id="nextSlide">
+      &#10095;
+    </button>
+
+
+    <div class="slider-dots" id="sliderDots">
+
+      <button class="dot active" data-slide="0"></button>
+      <button class="dot" data-slide="1"></button>
+      <button class="dot" data-slide="2"></button>
+      <button class="dot" data-slide="3"></button>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= INTRO ================= -->
+
+  <section class="intro section-padding">
+
+    <div class="container intro-grid">
+
+      <div class="intro-image reveal">
+
+        <img src="images/5.jpeg" alt="أعمال حدث الجنوب">
+
+        <div class="experience-box">
+
+          <strong>خبرة</strong>
+          <span>وجودة</span>
+
+        </div>
+
+      </div>
+
+
+      <div class="intro-content reveal">
+
+        <span class="section-label">من نحن</span>
+
+        <h2 class="section-title">
+          نصنع تفاصيل تجعل
+          <span>المكان أكثر جمالاً</span>
+        </h2>
+
+        <p>
+          شركة حدث الجنوب التجارية للمطابخ والخزائن تقدم حلولاً
+          متكاملة في مجال المطابخ والخزائن والديكورات الداخلية.
+        </p>
+
+        <p>
+          نهتم بكل تفاصيل المشروع بدايةً من الفكرة والتصميم،
+          مروراً باختيار الخامات المناسبة، وصولاً إلى التنفيذ
+          بأعلى مستوى من الدقة والجودة.
+        </p>
+
+        <a href="about.html" class="text-link">
+          تعرف علينا أكثر
+          <span>←</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= SERVICES ================= -->
+
+  <section class="services section-padding">
+
+    <div class="container">
+
+      <div class="section-heading reveal">
+
+        <span class="section-label">خدماتنا</span>
+
+        <h2 class="section-title">
+          حلول متكاملة
+          <span>لمنزلك</span>
+        </h2>
+
+        <p>
+          نقدم مجموعة متكاملة من الخدمات والتصاميم
+          التي تجمع بين الجمال والعملية.
+        </p>
+
+      </div>
+
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+
+          <div class="service-number">01</div>
+
+          <div class="service-icon">⌂</div>
+
+          <h3>مطابخ خشب وألمنيوم</h3>
+
+          <p>
+            تصميم وتنفيذ مطابخ عصرية وكلاسيكية
+            باستخدام خامات عالية الجودة.
+          </p>
+
+        </div>
+
+
+        <div class="service-card reveal">
+
+          <div class="service-number">02</div>
+
+          <div class="service-icon">▣</div>
+
+          <h3>خزائن وغرف نوم</h3>
+
+          <p>
+            خزائن وغرف نوم مصممة حسب المساحة
+            والاحتياجات بأسلوب أنيق وعملي.
+          </p>
+
+        </div>
+
+
+        <div class="service-card reveal">
+
+          <div class="service-number">03</div>
+
+          <div class="service-icon">◇</div>
+
+          <h3>ديكورات داخلية</h3>
+
+          <p>
+            أفكار وحلول للديكور الداخلي تضيف
+            لمسة راقية ومميزة للمكان.
+          </p>
+
+        </div>
+
+
+        <div class="service-card reveal">
+
+          <div class="service-number">04</div>
+
+          <div class="service-icon">◆</div>
+
+          <h3>مغاسل رخام</h3>
+
+          <p>
+            تنفيذ مغاسل رخام بتصاميم أنيقة
+            تناسب مختلف أنواع المساحات.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= PROJECTS ================= -->
+
+  <section class="projects-preview section-padding">
+
+    <div class="container">
+
+      <div class="section-heading projects-heading reveal">
+
+        <div>
+
+          <span class="section-label">أعمالنا</span>
+
+          <h2 class="section-title">
+            بعض من
+            <span>مشاريعنا</span>
+          </h2>
+
+        </div>
+
+        <a href="projects.html" class="btn btn-dark">
+          مشاهدة جميع المشاريع
+        </a>
+
+      </div>
+
+
+      <div class="projects-grid">
+
+        <a href="projects.html" class="project-card reveal">
+          <img src="images/5.jpeg" alt="مشروع مطبخ">
+          <div class="project-overlay">
+            <span>مشاهدة المشروع</span>
+          </div>
+        </a>
+
+        <a href="projects.html" class="project-card reveal">
+          <img src="images/6.jpeg" alt="مشروع مطبخ">
+          <div class="project-overlay">
+            <span>مشاهدة المشروع</span>
+          </div>
+        </a>
+
+        <a href="projects.html" class="project-card reveal">
+          <img src="images/7.jpeg" alt="مشروع خزائن">
+          <div class="project-overlay">
+            <span>مشاهدة المشروع</span>
+          </div>
+        </a>
+
+        <a href="projects.html" class="project-card reveal">
+          <img src="images/8.jpeg" alt="مشروع ديكور">
+          <div class="project-overlay">
+            <span>مشاهدة المشروع</span>
+          </div>
+        </a>
+
+        <a href="projects.html" class="project-card reveal">
+          <img src="images/9.jpeg" alt="مشروع غرفة نوم">
+          <div class="project-overlay">
+            <span>مشاهدة المشروع</span>
+          </div>
+        </a>
+
+        <a href="projects.html" class="project-card reveal">
+          <img src="images/10.jpeg" alt="مشروع مغسلة رخام">
+          <div class="project-overlay">
+            <span>مشاهدة المشروع</span>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= CTA ================= -->
+
+  <section class="cta">
+
+    <div class="cta-overlay"></div>
+
+    <div class="container cta-content">
+
+      <span class="section-label light">
+        هل لديك مشروع؟
+      </span>
+
+      <h2>
+        دعنا نصنع لك
+        <br>
+        <span>مساحة تستحقها</span>
+      </h2>
+
+      <p>
+        تواصل معنا لمناقشة فكرتك والحصول على التصميم
+        المناسب لمشروعك.
+      </p>
+
+      <a href="contact.html" class="btn btn-light">
+        تواصل معنا
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+
+        <div class="logo footer-logo">
+
+          <span class="logo-main">حدث الجنوب</span>
+
+          <span class="logo-sub">
+            التجارية للمطابخ والخزائن
+          </span>
+
+        </div>
+
+        <p>
+          مطابخ خشب وألمنيوم، خزائن وغرف نوم،
+          ديكورات داخلية ومغاسل رخام.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>روابط سريعة</h3>
+
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">من نحن</a>
+        <a href="projects.html">مشاريعنا</a>
+        <a href="contact.html">اتصل بنا</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>خدماتنا</h3>
+
+        <span>مطابخ خشب وألمنيوم</span>
+        <span>خزائن وغرف نوم</span>
+        <span>ديكورات داخلية</span>
+        <span>مغاسل رخام</span>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h3>تواصل معنا</h3>
+
+        <a href="tel:0542546474">
+          0542546474
+        </a>
+
+        <a href="https://wa.me/966542546474" target="_blank">
+          واتساب
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <p>
+          © 2026 حدث الجنوب التجارية. جميع الحقوق محفوظة.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= FLOATING BUTTONS ================= -->
+
+  <div class="floating-buttons">
+
+    <a
+      href="https://wa.me/966542546474"
+      class="float-btn whatsapp"
+      target="_blank"
+      aria-label="واتساب"
+    >
+      <svg viewBox="0 0 24 24">
+        <path d="M20.5 3.5A11.8 11.8 0 0 0 12.08 0C5.55 0 .23 5.32.23 11.85c0 2.09.55 4.13 1.6 5.93L.13 24l6.36-1.67a11.82 11.82 0 0 0 5.59 1.42h.01c6.53 0 11.85-5.32 11.85-11.85 0-3.17-1.24-6.14-3.44-8.4ZM12.09 21.7h-.01a9.83 9.83 0 0 1-5.01-1.37l-.36-.21-3.77.99 1.01-3.67-.23-.38a9.82 9.82 0 0 1-1.5-5.21C2.22 6.42 6.64 2 12.09 2a9.8 9.8 0 0 1 6.98 2.89 9.8 9.8 0 0 1 2.88 6.99c0 5.44-4.43 9.82-9.86 9.82Zm5.39-7.36c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.65.15-.19.29-.75.95-.92 1.14-.17.19-.34.22-.63.07-.29-.15-1.23-.45-2.34-1.44-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.49.1-.19.05-.36-.02-.51-.07-.15-.65-1.58-.89-2.17-.23-.57-.47-.49-.65-.5h-.55c-.19 0-.49.07-.75.36-.26.29-1  .98-1 2.39s1.02 2.77 1.16 2.96c.14.19 2 3.05 4.85 4.28.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.12.55-.08 1.72-.7 1.96-1.37.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.34Z"/>
+      </svg>
+    </a>
+
+
+    <a
+      href="tel:0542546474"
+      class="float-btn call"
+      aria-label="اتصال"
+    >
+      <svg viewBox="0 0 24 24">
+        <path d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2a1.03 1.03 0 0 1 1.05-.25c1.15.38 2.39.58 3.66.58.57 0 1.03.46 1.03 1.03V20.2c0 .57-.46 1.03-1.03 1.03C10.06 21.23 2.77 13.94 2.77 4.87c0-.57.46-1.03 1.03-1.03H7.2c.57 0 1.03.46 1.03 1.03 0 1.28.2 2.51.58 3.66.11.39.02.82-.25 1.05l-1.94 1.21Z"/>
+      </svg>
+    </a>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
